@@ -1,0 +1,24 @@
+{
+    "name": "gh-rboliveira/football-data",
+    "description": "Football-data.org Integration for v2 of API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rui Oliveira",
+            "email": "r.b.oliveira@outlook.pt"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "gh_rboliveira\\football_data\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "gh_rboliveira\\football_data\\tests\\":"tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    }
+}
